@@ -1,0 +1,264 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #505050;
+}
+
+.container {
+    width: 1420px;
+    height: auto;
+    padding: 20px 0px;
+
+    position: absolute;
+    top: 0;
+    left: calc(50% - 710px);
+}
+
+@media only screen and (max-width: 1500px) {
+    .container {
+        left: 70px;
+    }
+}
+
+.header {
+    width: 100%;
+    height: 137px;
+
+    border-radius: 10px;
+
+    background-color: #909090;
+    box-shadow: 0 12px 24px rgba(0,0,0,0.8), 0 10px 10px rgba(0,0,0,0.8);
+}
+
+.header-title {
+    width: 430px;
+    height: 110px;
+
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+
+.header-search {
+    width: 260px;
+    height: 150px;
+
+    position: absolute;
+    top: 30px;
+    left: 1130px;
+
+    cursor: pointer;
+}
+
+.header-reload {
+    width: 20px;
+    height: 20px;
+
+    position: absolute;
+    top: 30px;
+    left: 1390px;
+
+    cursor: pointer;
+}
+
+.header-close {
+    width: 20px;
+    height: 20px;
+
+    position: absolute;
+    top: 125px;
+    left: 1390px;
+
+    cursor: pointer;
+}
+
+.item {
+    width: 140px;
+    height: 425px;
+    margin: 19px 28px 0px 32px;
+
+    position: relative;
+    float: left;
+
+    background-color: #919191;
+    box-shadow: 0 12px 24px rgba(0,0,0,0.8), 0 10px 10px rgba(0,0,0,0.8);
+    border-radius: 10px;
+}
+
+.item-img-arrow {
+    width: 70px;
+    height: 70px;
+
+    margin: 16px 30px 0px 30px;
+
+    cursor: pointer;
+}
+
+.item-img-main {
+    width: 70px;
+    height: 68px;
+
+    margin: 6px 30px 0px 30px;
+
+    cursor: pointer;
+}
+
+.item-img-oeil {
+    width: 67px;
+    height: 63px;
+
+    margin: 3px 27px 0px 28px;
+
+    border: solid 5px red;
+    border-radius: 3px;
+
+    cursor: pointer;
+}
+
+.item-img-outil {
+    width: 70px;
+    height: 68px;
+
+    margin: 3px 30px 0px 30px;
+
+    cursor: pointer;
+}
+
+.item-img-chat-icon {
+    width: 70px;
+    height: 68px;
+
+    margin: 6px 30px 0px 30px;
+
+    cursor: pointer;
+}
+
+.item-img-book {
+    width: 70px;
+    height: 93px;
+
+    margin: 16px 34px 0px 34px;
+
+    cursor: pointer;
+}
+
+.item-img-towel {
+    width: 70px;
+    height: 56px;
+
+    margin: 3px 34px 0px 34px;
+
+    cursor: pointer;
+}
+
+.bricks {
+    width: 124px;
+    height: 73px;
+
+    padding: 1px 8px;
+
+    cursor: pointer;
+}
+
+.item-img-brick {
+    width: 30px;
+    height: 36px;
+
+    margin: 0;
+
+    position: relative;
+    float: left;
+}
+
+.center {
+    width: 1000px;
+    height: 560px;
+    margin: 20px 0px;
+    padding: 10px;
+
+    position: relative;
+    float: left;
+
+    background-color: #919191;
+    box-shadow: 0 12px 24px rgba(0,0,0,0.8), 0 10px 10px rgba(0,0,0,0.8);
+    border-radius: 10px;
+}
+
+.center-img {
+    width: 1000px;
+    height: 560px;
+}
+
+.btn-ikea {
+    width: 150px;
+    height: 240px;
+
+    position: absolute;
+    top: 320px;
+    left: 320px;
+
+    cursor: pointer;
+}
+
+.btn-apple {
+    width: 210px;
+    height: 190px;
+
+    position: absolute;
+    top: 310px;
+    left: 790px;
+
+    cursor: pointer;
+}
+
+.popup {
+    width: 500px;
+    height: 160px;
+
+    padding: 5px 10px;
+
+    position: absolute;
+    top: 682px;
+    left: -44px;
+
+    background-color: #8AFF8A;
+    border-radius: 10px;
+
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.15;
+}
+
+.popup-font-1 {
+    font-size: 35px;
+}
+
+.popup-font-2 {
+    margin: 0;
+    padding: 0;
+
+    font-size: 17px;
+    font-style: italic;
+}
+
+.popup-font-3 {
+    margin: 0;
+    padding: 0;
+
+    text-shadow: 5px 5px 4px red;
+}
+
+.popup-input {
+    width: 375px;
+    margin: 0 5px 0 2px;
+}
+
+.popup-button {
+    width: 77px;
+
+    font-size: 13px;
+    border: solid 1px gray;
+
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Piscine PHP : exercise 05 of day 00">
+		<meta name="keywords" content="42SiliconValley, Piscine, PHP, HTML, CSS, Day00, ex05">
+        <meta name="author" content="Aidan Lim(@dlim)">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Scumm</title>
+        <link rel="stylesheet" href="scumm.css">
+        <script src="scumm.js"></script>
+	</head>
+	<body>
+        <div class="header">Aidan's Dungeon Escape</div>
+        <div class="display">
+            <img id="bg0" class="bg" src="resources/bg0.jpg">
+            <img id="bg1" class="bg" src="resources/bg1.jpg">
+            <img id="bg2" class="bg" src="resources/bg2.jpg">
+            <img id="bg2-1" class="bg" src="resources/bg2-1.jpg">
+            <img id="bg3" class="bg" src="resources/bg3.jpg">
+            <img id="bg3-1" class="bg" src="resources/bg3-1.jpg">
+            <img id="bg4" class="bg" src="resources/bg4.png">
+            <div class="action">
+                <img class="action-btn" src="resources/attack.png" onclick="attack()">
+                <img class="action-btn" src="resources/look.png" onclick="look()">
+                <img class="action-btn" src="resources/grab.png" onclick="grab()">
+                <img class="action-btn" src="resources/speak.png" onclick="speak()">
+            </div>
+            <div class="item">
+                <img id="item" class="item-img" src="resources/status1.png">
+            </div>
+            <img class="arrow arrow-left" src="resources/move.png" onclick="move(1)">
+            <img class="arrow arrow-right" src="resources/move.png" onclick="move(0)">
+        </div>
+    </body>
+</html>

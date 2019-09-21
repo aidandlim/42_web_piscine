@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    overflow-x: hidden;
+    overflow-y: scroll; 
+
+    font-family: sans-serif;
+}
+
+.bg {
+    width: 100%;
+    height: auto;
+    
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+table {
+    width: calc(100vw - 50px);
+    margin: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    opacity: 0.8;
+}
+
+.titlerow {
+    height: 100px;
+}
+
+.title {
+    color: #E0E0E0;
+    font-size: 3vw;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    text-align: center;
+}
+
+.element {
+    width: calc((100vw - 50px) / 18);
+    height: calc((100vw - 50px) / 18);
+    
+    color: white;
+}
+
+.weight {
+    width: calc(100% - 0.4vw);
+    height: calc((100vw - 50px) / 18 * 0.2);
+    margin: 0;
+    padding: 0 0.2vw;
+
+    font-size: 0.7vw;
+    line-height: calc((100vw - 50px) / 18 * 0.2);
+    text-align: right;
+}
+
+.name {
+    width: 100%;
+    height: calc((100vw - 50px) / 18 * 0.6);
+    margin: 0;
+    padding: 0;
+
+    font-size: 2vw;
+    font-weight: 900;
+    line-height: calc((100vw - 50px) / 18 * 0.6);
+    text-align: center;
+}
+
+.number {
+    width: calc(100% - 0.4vw);
+    height: calc((100vw - 50px) / 18 * 0.2);
+    margin: 0;
+    padding: 0 0.2vw;
+
+    font-size: 1vw;
+    font-weight: 600;
+    line-height: calc((100vw - 50px) / 18 * 0.2);
+    text-align: left;
+}
+
+.arrow {
+    font-size: 1vw;
+    text-align: center;
+    line-height: 2;
+}
+
+.index {
+    height: calc((100vw - 50px) / 18 * 0.4);
+
+    color: white;
+    font-size: 1vw;
+    font-weight: 900;
+    text-indent: 0.5vw;
+}
+
+.other_nonmetal {
+    background-color: #00B8D4;
+}
+
+.noble_gas {
+    background-color: #D50000;
+}
+
+.alkali_metal {
+    background-color:#00BFA5;
+}
+
+.alkali_earth_metal {
+    background-color: #2962FF;
+}
+
+.metalloid {
+    background-color: #00C853;
+}
+
+.halogen {
+    background-color: #FFAB00;
+}
+
+.post_transition_metal {
+    background-color: #FFD600;
+}
+
+.transition_metal {
+    background-color: #673AB7;
+}
+
+.unknown {
+    background-color: #607D8B;
+}
+
+.lanthanide {
+    background-color: #C51162;
+}
+
+.actinide {
+    background-color: #795548;
+}
+
+.emptyrow {
+    height: calc((100vw - 50px) / 18);
+}
